@@ -1,8 +1,9 @@
-const express = require("express");
+import express from 'express'
 const app = express();
 
-const connectDB = require("./config/db");
-const userrouter = require("./router/users");
+import connectDB from "./config/db";
+import userrouter from "./router/users";
+
 const port = 3001;
 
 app.use(express.json()); // for parsing application/json

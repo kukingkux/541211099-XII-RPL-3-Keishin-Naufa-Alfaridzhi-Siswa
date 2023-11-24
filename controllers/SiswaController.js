@@ -1,5 +1,4 @@
-
-
+import siswas from "../model/Siswa.js"
 
 module.exports = {
     index: (req, res) => {
