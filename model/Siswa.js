@@ -38,3 +38,5 @@ const siswaSchema = new mongoose.Schema({
         required: [true, "Isikan Gender terlebih dahulu"]
     },
 })
+
+export default mongoose.model("siswas", siswaSchema)
